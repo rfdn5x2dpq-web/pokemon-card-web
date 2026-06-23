@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>포켓몬 카드 재고 트래커</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f5f5f5;
+      --surface: #ffffff;
+      --border: #e0e0e0;
+      --text: #1a1a1a;
+      --text-sub: #666;
+      --primary: #3b5bdb;
+      --primary-light: #e8edff;
+      --in-stock: #2f9e44;
+      --in-stock-bg: #ebfbee;
+      --out-stock: #c92a2a;
+      --out-stock-bg: #fff5f5;
+      --low-price: #e67700;
+      --low-price-bg: #fff3e0;
+      --radius: 10px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── 헤더 ── */
+    header { background: var(--primary); color: #fff; padding: 20px 24px 18px; }
+    header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.3px; }
+    header p  { font-size: 0.8rem; opacity: 0.75; margin-top: 2px; }
+
+    /* ── 컨트롤 ── */
+    .controls {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+      display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    }
+    .search-wrap { flex: 1; min-width: 200px; position: relative; }
+    .search-wrap svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); opacity: 0.4; }
+    #search {
+      width: 100%; padding: 8px 12px 8px 34px;
+      border: 1px solid var(--border); border-radius: var(--radius);
+      font-size: 0.9rem; outline: none; transition: border-color 0.15s;
+    }
+    #search:focus { border-color: var(--primary); }
+    .filter-group { display: flex; flex-wrap: wrap; gap: 6px; }
+    .btn {
+      padding: 7px 14px; border: 1px solid var(--border);
+      border-radius: 20px; background: var(--surface);
+      font-size: 0.82rem; cursor: pointer; transition: all 0.15s; white-space: nowrap;
+    }
+    .btn:hover { border-color: var(--primary); color: var(--primary); }
+    .btn.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .btn-stock { border-color: var(--in-stock); color: var(--in-stock); }
+    .btn-stock.active { background: var(--in-stock); border-color: var(--in-stock); color: #fff; }
+
+    /* ── 상태바 ── */
+    .statusbar {
+      padding: 10px 24px; font-size: 0.8rem; color: var(--text-sub);
+      display: flex; justify-content: space-between; align-items: center;
+    }
+
+    /* ── 그리드 ── */
+    .grid {
+      padding: 0 24px 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); overflow: hidden;
+      display: flex; flex-direction: column;
+      transition: box-shadow 0.15s, transform 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); transform: translateY(-2px); }
+
+    .card-img-wrap { position: relative; }
+    .card-img { width: 100%; aspect-ratio: 5/7; object-fit: cover; display: block; }
+
+    /* 최저가 배지 (이미지 위) */
+    .badge-low {
+      position: absolute; top: 6px; left: 6px;
+      background: var(--low-price); color: #fff;
+      font-size: 0.65rem; font-weight: 700;
+      padding: 2px 6px; border-radius: 4px;
+      letter-spacing: 0.3px;
+    }
+
+    .card-body { padding: 10px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+    .card-name {
+      font-size: 0.82rem; font-weight: 600; line-height: 1.35;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .stock-badge {
+      display: inline-block; font-size: 0.72rem;
+      padding: 3px 8px; border-radius: 20px; font-weight: 600;
+    }
+    .stock-badge.in  { background: var(--in-stock-bg);  color: var(--in-stock); }
+    .stock-badge.out { background: var(--out-stock-bg); color: var(--out-stock); }
+
+    .card-meta { display: flex; justify-content: space-between; align-items: flex-end; margin-top: auto; }
+    .platform-badge {
+      font-size: 0.68rem; padding: 2px 7px; border-radius: 4px;
+      background: var(--primary-light); color: var(--primary); font-weight: 600; white-space: nowrap;
+    }
+    .price-wrap { text-align: right; }
+    .price { font-size: 0.88rem; font-weight: 700; }
+    .price-trend {
+      font-size: 0.68rem; margin-top: 1px;
+      display: block; white-space: nowrap;
+    }
+    .price-trend.down { color: var(--in-stock); }
+    .price-trend.up   { color: var(--out-stock); }
+
+    /* 가격 미니 차트 */
+    .price-chart { padding: 4px 10px 6px; }
+    .sparkline { width: 100%; height: 28px; }
+
+    .card-link {
+      display: block; text-align: center; font-size: 0.75rem;
+      padding: 7px; background: var(--bg); color: var(--primary);
+      text-decoration: none; border-top: 1px solid var(--border);
+      font-weight: 500; transition: background 0.12s;
+    }
+    .card-link:hover { background: var(--primary-light); }
+
+    /* ── 빈 상태 ── */
+    .empty { grid-column: 1 / -1; text-align: center; padding: 60px 20px; color: var(--text-sub); }
+    .empty svg { opacity: 0.25; margin-bottom: 12px; }
+    .empty p { font-size: 0.95rem; }
+
+    /* ── 페이징 ── */
+    .pagination {
+      display: flex; justify-content: center; align-items: center;
+      gap: 6px; padding: 8px 24px 32px; flex-wrap: wrap;
+    }
+    .page-btn {
+      min-width: 36px; height: 36px; padding: 0 10px;
+      border: 1px solid var(--border); border-radius: 8px;
+      background: var(--surface); font-size: 0.85rem; cursor: pointer; transition: all 0.12s;
+    }
+    .page-btn:hover:not(:disabled) { border-color: var(--primary); color: var(--primary); }
+    .page-btn.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .page-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+    @media (max-width: 480px) {
+      .controls, .statusbar, .grid, .pagination { padding-left: 14px; padding-right: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>포켓몬 카드 재고 트래커</h1>
+  <p id="last-updated">불러오는 중...</p>
+</header>
+
+<div class="controls">
+  <div class="search-wrap">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+    </svg>
+    <input id="search" type="text" placeholder="상품명 검색..." autocomplete="off" />
+  </div>
+
+  <div class="filter-group" id="platform-filters">
+    <button class="btn active" data-platform="">전체</button>
+    <button class="btn" data-platform="포켓몬센터코리아">포켓몬센터</button>
+    <button class="btn" data-platform="이마트몰">이마트몰</button>
+    <button class="btn" data-platform="토이저러스">토이저러스</button>
+  </div>
+
+  <button class="btn btn-stock" id="stock-toggle">재고 있음만</button>
+</div>
+
+<div class="statusbar">
+  <span id="result-count"></span>
+  <span id="page-info"></span>
+</div>
+
+<div class="grid" id="grid"></div>
+<div class="pagination" id="pagination"></div>
+
+<script>
+  const PAGE_SIZE = 20;
+
+  let allItems  = [];
+  let history   = {};   // url → [{date, price}, ...]
+  let filtered  = [];
+  let currentPage    = 1;
+  let activePlatform = '';
+  let stockOnly      = false;
+
+  async function loadData() {
+    try {
+      const t = Date.now();
+      const [dataRes, histRes] = await Promise.allSettled([
+        fetch('data.json?t=' + t).then(r => r.json()),
+        fetch('history.json?t=' + t).then(r => r.json()),
+      ]);
+
+      if (dataRes.status === 'fulfilled') {
+        allItems = dataRes.value.items || [];
+        const dt = new Date(dataRes.value.updated);
+        document.getElementById('last-updated').textContent =
+          '마지막 업데이트: ' + dt.toLocaleString('ko-KR');
+      }
+      if (histRes.status === 'fulfilled') {
+        history = histRes.value || {};
+      }
+    } catch {
+      document.getElementById('last-updated').textContent = '데이터를 불러올 수 없습니다.';
+    }
+    applyFilters();
+  }
+
+  function applyFilters() {
+    const q = document.getElementById('search').value.trim().toLowerCase();
+    filtered = allItems.filter(item => {
+      if (activePlatform && item.platform !== activePlatform) return false;
+      if (stockOnly && !item.stock) return false;
+      if (q && !item.name.toLowerCase().includes(q)) return false;
+      return true;
+    });
+    currentPage = 1;
+    render();
+  }
+
+  function getPriceInfo(item) {
+    const records = history[item.url];
+    if (!records || records.length < 2) return null;
+
+    const prices    = records.map(r => r.price).filter(p => p > 0);
+    const minPrice  = Math.min(...prices);
+    const prevPrice = prices[prices.length - 2];
+    const curPrice  = item.price;
+
+    return { minPrice, prevPrice, curPrice, isLowest: curPrice === minPrice && curPrice > 0 };
+  }
+
+  function sparklineSVG(records, curPrice) {
+    if (!records || records.length < 2) return '';
+    const prices = records.map(r => r.price).filter(p => p > 0);
+    if (prices.length < 2) return '';
+
+    const W = 160, H = 28, pad = 4;
+    const min = Math.min(...prices);
+    const max = Math.max(...prices);
+    const range = max - min || 1;
+
+    const pts = prices.map((p, i) => {
+      const x = pad + (i / (prices.length - 1)) * (W - pad * 2);
+      const y = H - pad - ((p - min) / range) * (H - pad * 2);
+      return `${x.toFixed(1)},${y.toFixed(1)}`;
+    });
+
+    const lastY = parseFloat(pts[pts.length - 1].split(',')[1]);
+    const color = curPrice <= prices[prices.length - 2] ? '#2f9e44' : '#c92a2a';
+
+    return `<svg class="sparkline" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+      <polyline points="${pts.join(' ')}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linejoin="round"/>
+      <circle cx="${(pad + (prices.length - 1) / (prices.length - 1) * (W - pad * 2)).toFixed(1)}" cy="${lastY.toFixed(1)}" r="2.5" fill="${color}"/>
+    </svg>`;
+  }
+
+  function render() {
+    const total      = filtered.length;
+    const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+    currentPage      = Math.min(currentPage, totalPages);
+    const start      = (currentPage - 1) * PAGE_SIZE;
+    const page       = filtered.slice(start, start + PAGE_SIZE);
+
+    document.getElementById('result-count').textContent = `${total}개 상품`;
+    document.getElementById('page-info').textContent =
+      totalPages > 1 ? `${currentPage} / ${totalPages} 페이지` : '';
+
+    const grid = document.getElementById('grid');
+    if (page.length === 0) {
+      grid.innerHTML = `
+        <div class="empty">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <p>조건에 맞는 상품이 없습니다.</p>
+        </div>`;
+    } else {
+      grid.innerHTML = page.map(item => {
+        const pi      = getPriceInfo(item);
+        const records = history[item.url];
+
+        const lowBadge   = pi?.isLowest ? '<span class="badge-low">최저가</span>' : '';
+        let trendHtml    = '';
+        if (pi && pi.prevPrice > 0 && item.price > 0) {
+          const diff = item.price - pi.prevPrice;
+          if (diff < 0) {
+            trendHtml = `<span class="price-trend down">▼ ${Math.abs(diff).toLocaleString()}원 인하</span>`;
+          } else if (diff > 0) {
+            trendHtml = `<span class="price-trend up">▲ ${diff.toLocaleString()}원 인상</span>`;
+          }
+        }
+
+        const chartHtml = records && records.length >= 2
+          ? `<div class="price-chart">${sparklineSVG(records, item.price)}</div>`
+          : '';
+
+        return `
+        <div class="card">
+          <div class="card-img-wrap">
+            <img class="card-img" src="${esc(item.img)}" alt="${esc(item.name)}"
+                 onerror="this.src='https://placehold.co/200x280/e0e0e0/999?text=No+Image'" />
+            ${lowBadge}
+          </div>
+          <div class="card-body">
+            <div class="card-name">${esc(item.name)}</div>
+            <span class="stock-badge ${item.stock ? 'in' : 'out'}">
+              ${item.stock ? '재고 있음' : '품절'}
+            </span>
+            <div class="card-meta">
+              <span class="platform-badge">${esc(item.platform)}</span>
+              <div class="price-wrap">
+                <span class="price">${item.price.toLocaleString()}원</span>
+                ${trendHtml}
+              </div>
+            </div>
+          </div>
+          ${chartHtml}
+          <a class="card-link" href="${esc(item.url)}" target="_blank" rel="noopener">
+            구매 페이지 →
+          </a>
+        </div>`;
+      }).join('');
+    }
+
+    renderPagination(totalPages);
+  }
+
+  function renderPagination(totalPages) {
+    const el = document.getElementById('pagination');
+    if (totalPages <= 1) { el.innerHTML = ''; return; }
+
+    const range = buildRange(currentPage, totalPages);
+    el.innerHTML = `
+      <button class="page-btn" onclick="goPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>‹</button>
+      ${range.map(p => p === '…'
+        ? `<span style="padding:0 4px;align-self:center;color:var(--text-sub)">…</span>`
+        : `<button class="page-btn ${p === currentPage ? 'active' : ''}" onclick="goPage(${p})">${p}</button>`
+      ).join('')}
+      <button class="page-btn" onclick="goPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>›</button>
+    `;
+  }
+
+  function buildRange(cur, total) {
+    if (total <= 7) return Array.from({length: total}, (_, i) => i + 1);
+    const pages = new Set([1, total, cur]);
+    if (cur > 1) pages.add(cur - 1);
+    if (cur < total) pages.add(cur + 1);
+    const sorted = [...pages].sort((a, b) => a - b);
+    const result = [];
+    for (let i = 0; i < sorted.length; i++) {
+      if (i > 0 && sorted[i] - sorted[i - 1] > 1) result.push('…');
+      result.push(sorted[i]);
+    }
+    return result;
+  }
+
+  function goPage(p) {
+    const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+    if (p < 1 || p > totalPages) return;
+    currentPage = p;
+    render();
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+
+  function esc(str) {
+    return String(str)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  // 이벤트
+  document.getElementById('search').addEventListener('input', applyFilters);
+
+  document.getElementById('platform-filters').addEventListener('click', e => {
+    const btn = e.target.closest('[data-platform]');
+    if (!btn) return;
+    activePlatform = btn.dataset.platform;
+    document.querySelectorAll('[data-platform]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    applyFilters();
+  });
+
+  document.getElementById('stock-toggle').addEventListener('click', function() {
+    stockOnly = !stockOnly;
+    this.classList.toggle('active', stockOnly);
+    applyFilters();
+  });
+
+  loadData();
+</script>
+</body>
+</html>
