@@ -173,6 +173,12 @@
     <input id="search" type="text" placeholder="상품명 검색..." autocomplete="off" />
   </div>
 
+  <div class="filter-group" id="type-filters">
+    <button class="btn" data-type="">전체</button>
+    <button class="btn active" data-type="box">박스</button>
+    <button class="btn" data-type="single">싱글카드</button>
+  </div>
+
   <div class="filter-group" id="platform-filters">
     <button class="btn active" data-platform="">전체</button>
     <button class="btn" data-platform="포켓몬센터코리아">포켓몬센터</button>
@@ -193,13 +199,20 @@
 
 <script>
   const PAGE_SIZE = 20;
+  const BOX_KEYWORDS = ['박스', 'box', '부스터', '스타터덱', '컬렉션박스', '덱빌드', '하프박스', '반박스', '스타터 덱'];
 
   let allItems  = [];
-  let history   = {};   // url → [{date, price}, ...]
+  let history   = {};
   let filtered  = [];
   let currentPage    = 1;
   let activePlatform = '';
+  let activeType     = 'box';   // 기본값: 박스
   let stockOnly      = false;
+
+  function isBox(name) {
+    const lower = name.toLowerCase();
+    return BOX_KEYWORDS.some(k => lower.includes(k.toLowerCase()));
+  }
 
   async function loadData() {
     try {
@@ -228,6 +241,8 @@
     const q = document.getElementById('search').value.trim().toLowerCase();
     filtered = allItems.filter(item => {
       if (activePlatform && item.platform !== activePlatform) return false;
+      if (activeType === 'box' && !isBox(item.name)) return false;
+      if (activeType === 'single' && isBox(item.name)) return false;
       if (stockOnly && !item.stock) return false;
       if (q && !item.name.toLowerCase().includes(q)) return false;
       return true;
@@ -334,7 +349,7 @@
             </div>
           </div>
           ${chartHtml}
-          <a class="card-link" href="${esc(item.url)}" target="_blank" rel="noopener">
+          <a class="card-link" href="${esc(itemUrl(item))}" target="_blank" rel="noopener">
             구매 페이지 →
           </a>
         </div>`;
@@ -381,6 +396,17 @@
     window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
+  const PLATFORM_HOME = {
+    '포켓몬센터코리아': 'https://www.pokemonstore.co.kr/',
+    '이마트몰':         'https://emart.ssg.com/search.ssg?query=%ED%8F%AC%EC%BC%93%EB%AA%AC+%EC%B9%B4%EB%93%9C',
+    '토이저러스':       'https://www.toysrus.co.kr/search?q=%ED%8F%AC%EC%BC%93%EB%AA%AC+%EC%B9%B4%EB%93%9C',
+  };
+
+  function itemUrl(item) {
+    if (!isBox(item.name)) return PLATFORM_HOME[item.platform] || item.url;
+    return item.url;
+  }
+
   function esc(str) {
     return String(str)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;')
@@ -389,6 +415,15 @@
 
   // 이벤트
   document.getElementById('search').addEventListener('input', applyFilters);
+
+  document.getElementById('type-filters').addEventListener('click', e => {
+    const btn = e.target.closest('[data-type]');
+    if (!btn) return;
+    activeType = btn.dataset.type;
+    document.querySelectorAll('[data-type]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    applyFilters();
+  });
 
   document.getElementById('platform-filters').addEventListener('click', e => {
     const btn = e.target.closest('[data-platform]');
