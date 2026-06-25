@@ -8926,5 +8926,11 @@
       "date": "2026-06-25",
       "price": 2600
     }
+  ],
+  "https://emart.ssg.com/item/itemView.ssg?itemId=1000009017813": [
+    {
+      "date": "2026-06-25",
+      "price": 4980
+    }
   ]
 }
