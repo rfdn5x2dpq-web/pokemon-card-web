@@ -4239,6 +4239,10 @@
     {
       "date": "2026-06-26",
       "price": 64990
+    },
+    {
+      "date": "2026-06-27",
+      "price": 64820
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000685452598": [
@@ -4701,6 +4705,10 @@
     {
       "date": "2026-06-26",
       "price": 20130
+    },
+    {
+      "date": "2026-06-27",
+      "price": 19980
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000464360683": [
@@ -5053,6 +5061,10 @@
     {
       "date": "2026-06-26",
       "price": 99990
+    },
+    {
+      "date": "2026-06-27",
+      "price": 99700
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000464362194": [
@@ -5087,6 +5099,10 @@
     {
       "date": "2026-06-26",
       "price": 170120
+    },
+    {
+      "date": "2026-06-27",
+      "price": 168670
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000528915974": [
@@ -5259,6 +5275,10 @@
     {
       "date": "2026-06-26",
       "price": 46386
+    },
+    {
+      "date": "2026-06-27",
+      "price": 46776
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000536694549": [
@@ -6611,6 +6631,10 @@
     {
       "date": "2026-06-26",
       "price": 61170
+    },
+    {
+      "date": "2026-06-27",
+      "price": 59940
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000763009201": [
@@ -6827,6 +6851,10 @@
     {
       "date": "2026-06-26",
       "price": 106210
+    },
+    {
+      "date": "2026-06-27",
+      "price": 106070
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000571808775": [
@@ -8769,12 +8797,20 @@
     {
       "date": "2026-06-23",
       "price": 11730
+    },
+    {
+      "date": "2026-06-27",
+      "price": 12330
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000705056254": [
     {
       "date": "2026-06-23",
       "price": 14190
+    },
+    {
+      "date": "2026-06-27",
+      "price": 14700
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000705304113": [
@@ -9229,6 +9265,10 @@
     {
       "date": "2026-06-26",
       "price": 10970
+    },
+    {
+      "date": "2026-06-27",
+      "price": 10640
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000828446327": [
@@ -9245,6 +9285,10 @@
     {
       "date": "2026-06-23",
       "price": 11400
+    },
+    {
+      "date": "2026-06-27",
+      "price": 11880
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000705057065": [
@@ -9289,6 +9333,10 @@
     {
       "date": "2026-06-23",
       "price": 11730
+    },
+    {
+      "date": "2026-06-27",
+      "price": 12280
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000760161080": [
@@ -9335,6 +9383,10 @@
     {
       "date": "2026-06-26",
       "price": 12133
+    },
+    {
+      "date": "2026-06-27",
+      "price": 12313
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000827234619": [
@@ -9353,6 +9405,10 @@
     {
       "date": "2026-06-26",
       "price": 12273
+    },
+    {
+      "date": "2026-06-27",
+      "price": 12303
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000827234609": [
@@ -9371,6 +9427,10 @@
     {
       "date": "2026-06-26",
       "price": 12133
+    },
+    {
+      "date": "2026-06-27",
+      "price": 12313
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000827235862": [
@@ -9389,6 +9449,10 @@
     {
       "date": "2026-06-26",
       "price": 11914
+    },
+    {
+      "date": "2026-06-27",
+      "price": 12054
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000761100470": [
@@ -10445,6 +10509,18 @@
     {
       "date": "2026-06-27",
       "price": 11700
+    }
+  ],
+  "https://emart.ssg.com/item/itemView.ssg?itemId=1000844584071": [
+    {
+      "date": "2026-06-27",
+      "price": 11900
+    }
+  ],
+  "https://emart.ssg.com/item/itemView.ssg?itemId=0000007452329": [
+    {
+      "date": "2026-06-27",
+      "price": 5584
     }
   ]
 }
