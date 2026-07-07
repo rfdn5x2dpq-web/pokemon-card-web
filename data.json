@@ -1,122 +1,14 @@
 {
-  "updated": "2026-07-08T00:47:47+09:00",
+  "updated": "2026-07-08T03:08:27+09:00",
   "items": [
     {
       "name": "포켓몬 카드 게임 카드 실드 「찬란한 가디안」",
       "platform": "포켓몬센터코리아",
       "price": 8000,
-      "stock": true,
+      "stock": false,
       "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166387",
       "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597225/1000004767_detail_04.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 플레이매트 「거북왕」",
-      "platform": "포켓몬센터코리아",
-      "price": 30000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166455",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597289/1000004805_detail_07.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 카드 실드 「자시안&amp;자마젠타(역전의 용사)」",
-      "platform": "포켓몬센터코리아",
-      "price": 8000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166589",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597423/1000004888_detail_09.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 카드 실드 「제라오라 Ver.2」",
-      "platform": "포켓몬센터코리아",
-      "price": 8000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166415",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597251/1000004783_detail_090.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬센터 포켓몬 카드 게임 카드 실드 「HISUI DAYS 주인공」",
-      "platform": "포켓몬센터코리아",
-      "price": 10000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114167071",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597903/1000005150_detail_043.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 카드 실드 「코라이돈」",
-      "platform": "포켓몬센터코리아",
-      "price": 8000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114167727",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5598551/1000005523_detail_015.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 카드 실드 「테오키스」",
-      "platform": "포켓몬센터코리아",
-      "price": 8000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166417",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597253/1000004783_detail_092.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 카드 실드 「미라이돈」",
-      "platform": "포켓몬센터코리아",
-      "price": 8000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114167725",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5598549/1000005527_detail_083.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 카드 실드 「마스카나&amp;라우드본&amp;웨이니발」",
-      "platform": "포켓몬센터코리아",
-      "price": 8000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114168821",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5599645/1000009011_detail_045.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 카드 실드 프리미엄 「복숭악동&amp;조타구&amp;이야후&amp;기로치」",
-      "platform": "포켓몬센터코리아",
-      "price": 10000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=122818149",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20240812/121722.483153000/2024-08-05_18-31-42-26323-1722850302.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 카드 실드「미끄메라&amp;미끄네일」",
-      "platform": "포켓몬센터코리아",
-      "price": 8000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=133683375",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20260528/120247.798266507/미끄메미끄네일.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 카드 실드 「미끄래곤(히스이의 모습)」",
-      "platform": "포켓몬센터코리아",
-      "price": 8000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166389",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597227/1000004768_detail_029.png",
-      "updated": "2026-07-08T00:47:31+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 플레이매트 「이상해꽃」",
-      "platform": "포켓몬센터코리아",
-      "price": 30000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166451",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597285/1000004801_detail_032.png",
-      "updated": "2026-07-08T00:47:31+09:00"
+      "updated": "2026-07-08T03:08:16+09:00"
     },
     {
       "name": "포켓몬센터 포켓몬 카드 게임 카드 실드 「HISUI DAYS 찬석」",
@@ -125,16 +17,52 @@
       "stock": true,
       "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114167079",
       "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597911/1000005154_detail_060.png",
-      "updated": "2026-07-08T00:47:31+09:00"
+      "updated": "2026-07-08T03:08:16+09:00"
     },
     {
-      "name": "포켓몬센터 포켓몬 카드 게임 프리미엄 레더 플립 덱케이스 피카츄",
+      "name": "포켓몬 카드 게임 플레이매트 「거북왕」",
       "platform": "포켓몬센터코리아",
-      "price": 180000,
+      "price": 30000,
       "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=131038465",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20250701/165137.639816101/4521329430126.jpg",
-      "updated": "2026-07-08T00:47:31+09:00"
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166455",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597289/1000004805_detail_07.png",
+      "updated": "2026-07-08T03:08:16+09:00"
+    },
+    {
+      "name": "포켓몬 카드 게임 플레이매트 「이상해꽃」",
+      "platform": "포켓몬센터코리아",
+      "price": 30000,
+      "stock": true,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166451",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597285/1000004801_detail_032.png",
+      "updated": "2026-07-08T03:08:16+09:00"
+    },
+    {
+      "name": "포켓몬 카드 게임 카드 실드「미끄메라&amp;미끄네일」",
+      "platform": "포켓몬센터코리아",
+      "price": 8000,
+      "stock": true,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=133683375",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20260528/120247.798266507/미끄메미끄네일.png",
+      "updated": "2026-07-08T03:08:16+09:00"
+    },
+    {
+      "name": "포켓몬 카드 게임 카드 실드 「자시안&amp;자마젠타(역전의 용사)」",
+      "platform": "포켓몬센터코리아",
+      "price": 8000,
+      "stock": true,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166589",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597423/1000004888_detail_09.png",
+      "updated": "2026-07-08T03:08:16+09:00"
+    },
+    {
+      "name": "포켓몬 카드 게임 카드 실드 「제라오라 Ver.2」",
+      "platform": "포켓몬센터코리아",
+      "price": 8000,
+      "stock": true,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166415",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597251/1000004783_detail_090.png",
+      "updated": "2026-07-08T03:08:16+09:00"
     },
     {
       "name": "포켓몬센터 포켓몬 카드 게임 카드 실드 「Pokémon and Tools STEPLADDER」",
@@ -143,25 +71,25 @@
       "stock": true,
       "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114167145",
       "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597977/1000005187_detail_030.png",
-      "updated": "2026-07-08T00:47:31+09:00"
+      "updated": "2026-07-08T03:08:16+09:00"
     },
     {
-      "name": "포켓몬센터 포켓몬 카드 게임 프리미엄 레더 플립 덱케이스 블래키",
+      "name": "포켓몬센터 포켓몬 카드 게임 카드 실드 「HISUI DAYS 주인공」",
       "platform": "포켓몬센터코리아",
-      "price": 180000,
+      "price": 10000,
       "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=131038463",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20250701/165137.297465898/4521329430140.jpg",
-      "updated": "2026-07-08T00:47:31+09:00"
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114167071",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597903/1000005150_detail_043.png",
+      "updated": "2026-07-08T03:08:16+09:00"
     },
     {
-      "name": "포켓몬센터 포켓몬 카드 게임 프리미엄 레더 플립 덱케이스 메타몽",
+      "name": "포켓몬 카드 게임 카드 실드 「미끄래곤(히스이의 모습)」",
       "platform": "포켓몬센터코리아",
-      "price": 180000,
+      "price": 8000,
       "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=131038464",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20250701/165137.596011057/4521329430133.jpg",
-      "updated": "2026-07-08T00:47:31+09:00"
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166389",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597227/1000004768_detail_029.png",
+      "updated": "2026-07-08T03:08:16+09:00"
     },
     {
       "name": "포켓몬 카드 게임 카드 실드 「칼로스의 모험 제르네아스&amp;음번」",
@@ -170,7 +98,70 @@
       "stock": true,
       "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=124347976",
       "img": "https://shopby-images.cdn-nhncommerce.com/20250114/140903.410813000/900.png",
-      "updated": "2026-07-08T00:47:31+09:00"
+      "updated": "2026-07-08T03:08:16+09:00"
+    },
+    {
+      "name": "포켓몬 카드 게임 카드 실드 「코라이돈」",
+      "platform": "포켓몬센터코리아",
+      "price": 8000,
+      "stock": true,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114167727",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5598551/1000005523_detail_015.png",
+      "updated": "2026-07-08T03:08:16+09:00"
+    },
+    {
+      "name": "포켓몬 카드 게임 카드 실드 「테오키스」",
+      "platform": "포켓몬센터코리아",
+      "price": 8000,
+      "stock": true,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114166417",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597253/1000004783_detail_092.png",
+      "updated": "2026-07-08T03:08:16+09:00"
+    },
+    {
+      "name": "포켓몬 카드 게임 카드 실드 「미라이돈」",
+      "platform": "포켓몬센터코리아",
+      "price": 8000,
+      "stock": true,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114167725",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5598549/1000005527_detail_083.png",
+      "updated": "2026-07-08T03:08:16+09:00"
+    },
+    {
+      "name": "포켓몬 카드 게임 카드 실드 「마스카나&amp;라우드본&amp;웨이니발」",
+      "platform": "포켓몬센터코리아",
+      "price": 8000,
+      "stock": true,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114168821",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5599645/1000009011_detail_045.png",
+      "updated": "2026-07-08T03:08:16+09:00"
+    },
+    {
+      "name": "포켓몬 카드 게임 카드 실드 프리미엄 「복숭악동&amp;조타구&amp;이야후&amp;기로치」",
+      "platform": "포켓몬센터코리아",
+      "price": 10000,
+      "stock": true,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=122818149",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20240812/121722.483153000/2024-08-05_18-31-42-26323-1722850302.png",
+      "updated": "2026-07-08T03:08:16+09:00"
+    },
+    {
+      "name": "포켓몬센터 포켓몬 카드 게임 프리미엄 레더 플립 덱케이스 피카츄",
+      "platform": "포켓몬센터코리아",
+      "price": 180000,
+      "stock": true,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=131038465",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20250701/165137.639816101/4521329430126.jpg",
+      "updated": "2026-07-08T03:08:16+09:00"
+    },
+    {
+      "name": "포켓몬센터 포켓몬 카드 게임 프리미엄 레더 플립 덱케이스 메타몽",
+      "platform": "포켓몬센터코리아",
+      "price": 180000,
+      "stock": true,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=131038464",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20250701/165137.596011057/4521329430133.jpg",
+      "updated": "2026-07-08T03:08:16+09:00"
     },
     {
       "name": "포켓몬 카드 게임 카드 실드 「진화의 궤적 자포코일」",
@@ -179,1087 +170,16 @@
       "stock": true,
       "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114167717",
       "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5598541/1000005523_detail_074.png",
-      "updated": "2026-07-08T00:47:31+09:00"
+      "updated": "2026-07-08T03:08:16+09:00"
     },
     {
-      "name": "포켓몬 카드 스칼렛 바이올렛 랜덤 스타트 덱 Generations / 미니앨범세트초전브레이커 옵션선택",
-      "platform": "이마트몰",
-      "price": 29650,
+      "name": "포켓몬센터 포켓몬 카드 게임 프리미엄 레더 플립 덱케이스 블래키",
+      "platform": "포켓몬센터코리아",
+      "price": 180000,
       "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000633819020",
-      "img": "https://sitem.ssgcdn.com/20/90/81/item/1000633819020_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 테라스탈페스타ex",
-      "platform": "이마트몰",
-      "price": 130620,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000648687414",
-      "img": "https://sitem.ssgcdn.com/14/74/68/item/1000648687414_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 메가 확장팩 닌자스피너 1박스(30팩)",
-      "platform": "이마트몰",
-      "price": 64570,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000816787526",
-      "img": "https://sitem.ssgcdn.com/26/75/78/item/1000816787526_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 메가 확장팩 메가브레이브/메가심포니아 1박스 선택",
-      "platform": "이마트몰",
-      "price": 65000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000728359975",
-      "img": "https://sitem.ssgcdn.com/75/99/35/item/1000728359975_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 스칼렛 바이올렛 랜덤 60장덱 ex 스타트덱 8종 중 1개 랜덤수록",
-      "platform": "이마트몰",
-      "price": 29620,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000560950163",
-      "img": "https://sitem.ssgcdn.com/63/01/95/item/1000560950163_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 메가 하이클래스팩 드림EX 10팩 1박스",
-      "platform": "이마트몰",
-      "price": 138390,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000781340818",
-      "img": "https://sitem.ssgcdn.com/18/08/34/item/1000781340818_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 메가시리즈 2탄 인페르노X 1박스",
-      "platform": "이마트몰",
-      "price": 92870,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000763161136",
-      "img": "https://sitem.ssgcdn.com/36/11/16/item/1000763161136_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "카드 스칼렛&바이올렛 로켓단의 영광",
-      "platform": "이마트몰",
-      "price": 72000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000702827553",
-      "img": "https://sitem.ssgcdn.com/53/75/82/item/1000702827553_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 확장팩 초전브레이커 30팩 1박스",
-      "platform": "이마트몰",
-      "price": 79340,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000629263717",
-      "img": "https://sitem.ssgcdn.com/17/37/26/item/1000629263717_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 메가시리즈 3탄 니힐제로 1박스",
-      "platform": "이마트몰",
-      "price": 64690,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000803176190",
-      "img": "https://sitem.ssgcdn.com/90/61/17/item/1000803176190_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 하이클래스팩 테라스탈페스타 ex 10팩 1박스",
-      "platform": "이마트몰",
-      "price": 138140,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000685452598",
-      "img": "https://sitem.ssgcdn.com/98/25/45/item/1000685452598_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 확장팩 7탄 스텔라미라클 1박스",
-      "platform": "이마트몰",
-      "price": 53770,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000616211906",
-      "img": "https://sitem.ssgcdn.com/06/19/21/item/1000616211906_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 VKW232N4 컬렉션 파일세트 릴리에 포켓몬스터 카드팩 어린이 장난감 선물",
-      "platform": "이마트몰",
-      "price": 43529,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000813895429",
-      "img": "https://sitem.ssgcdn.com/29/54/89/item/1000813895429_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 스칼렛 바이올렛 강화확장팩 포켓몬카드 151 박스 /sv2a/Pokemon Card 151",
-      "platform": "이마트몰",
-      "price": 244380,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000555075863",
-      "img": "https://sitem.ssgcdn.com/63/58/07/item/1000555075863_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 소드 실드 25th 애니버서리 컬렉션 한글판 미개봉 박스(16팩)_프로모 없음",
-      "platform": "이마트몰",
-      "price": 410560,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000846221226",
-      "img": "https://sitem.ssgcdn.com/26/12/22/item/1000846221226_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 메가시리즈 확장팩 5탄 어비스아이 비닐밀봉 1박스(30팩)",
-      "platform": "이마트몰",
-      "price": 61750,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000834823705",
-      "img": "https://sitem.ssgcdn.com/05/37/82/item/1000834823705_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛  바이올렛 하이클래스 팩 샤이니 트레져 ex 10팩 1박스",
-      "platform": "이마트몰",
-      "price": 146630,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000577867099",
-      "img": "https://sitem.ssgcdn.com/99/70/86/item/1000577867099_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드게임 소드 실드 패러다임트리거팩 포함 미스터리박스세트",
-      "platform": "이마트몰",
-      "price": 74990,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000540483679",
-      "img": "https://sitem.ssgcdn.com/79/36/48/item/1000540483679_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 강화확장팩 낙원드래고나 1박스",
-      "platform": "이마트몰",
-      "price": 59690,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000625564206",
-      "img": "https://sitem.ssgcdn.com/06/42/56/item/1000625564206_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "카드 게임 카드 실드 「메가다크라이」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000848035226",
-      "img": "https://sitem.ssgcdn.com/26/52/03/item/1000848035226_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 확장팩 사이버 저지 30팩 1박스/sv5M/비닐밀봉박스",
-      "platform": "이마트몰",
-      "price": 49370,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000584413441",
-      "img": "https://sitem.ssgcdn.com/41/34/41/item/1000584413441_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 스칼렛 바이올렛 확장팩 흑염의 지배자/ sv3",
-      "platform": "이마트몰",
-      "price": 97760,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000558113599",
-      "img": "https://sitem.ssgcdn.com/99/35/11/item/1000558113599_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 강화확장팩 열풍의 아레나 1박스(프프로팩없음)",
-      "platform": "이마트몰",
-      "price": 55720,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000693959038",
-      "img": "https://sitem.ssgcdn.com/38/90/95/item/1000693959038_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 확장팩 10탄 로켓단의 영광 1 박스",
-      "platform": "이마트몰",
-      "price": 69100,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000707546276",
-      "img": "https://sitem.ssgcdn.com/76/62/54/item/1000707546276_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 닌자스피너 MEGA  확장팩",
-      "platform": "이마트몰",
-      "price": 65870,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000828239691",
-      "img": "https://sitem.ssgcdn.com/91/96/23/item/1000828239691_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 블랙볼트 20팩 1박스",
-      "platform": "이마트몰",
-      "price": 92870,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000805532744",
-      "img": "https://sitem.ssgcdn.com/44/27/53/item/1000805532744_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 화이트플레어 20팩 1박스",
-      "platform": "이마트몰",
-      "price": 92870,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000713003777",
-      "img": "https://sitem.ssgcdn.com/77/37/00/item/1000713003777_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "카드 게임 카드 실드 「모르페코」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000848036699",
-      "img": "https://sitem.ssgcdn.com/99/66/03/item/1000848036699_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "(뽁뽁이포장) 포켓몬카드 MEGA 확장팩 니힐제로 1BOX",
-      "platform": "이마트몰",
-      "price": 58620,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000803119061",
-      "img": "https://sitem.ssgcdn.com/61/90/11/item/1000803119061_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 스칼렛 바이올렛 강화 확장팩 크림슨헤이즈",
-      "platform": "이마트몰",
-      "price": 69360,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000647038626",
-      "img": "https://sitem.ssgcdn.com/26/86/03/item/1000647038626_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "[국내배송] 포켓몬 TCG 카드 메가브레이브 박스 일판 일본판 미개봉 슈링크O",
-      "platform": "이마트몰",
-      "price": 172040,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000851216826",
-      "img": "https://sitem.ssgcdn.com/26/68/21/item/1000851216826_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "클라이맥스 포켓몬카드 15종 CHR",
-      "platform": "이마트몰",
-      "price": 170660,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464361003",
-      "img": "https://sitem.ssgcdn.com/03/10/36/item/1000464361003_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 메가브레이브 1BOX 30팩 포켓몬카드게임 확장팩",
-      "platform": "이마트몰",
-      "price": 56160,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000736029102",
-      "img": "https://sitem.ssgcdn.com/02/91/02/item/1000736029102_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 WQ20QY68 스타터세트ex 성호의메탕 메타그로스ex",
-      "platform": "이마트몰",
-      "price": 18434,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000759909787",
-      "img": "https://sitem.ssgcdn.com/87/97/90/item/1000759909787_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 열풍의 아레나(30팩) 스칼렛&바이올렛 확장팩",
-      "platform": "이마트몰",
-      "price": 52570,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000712462871",
-      "img": "https://sitem.ssgcdn.com/71/28/46/item/1000712462871_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 로켓단의 영광 스칼렛 바이올렛 확장팩",
-      "platform": "이마트몰",
-      "price": 73440,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000703465069",
-      "img": "https://sitem.ssgcdn.com/69/50/46/item/1000703465069_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "카드 게임 스칼렛&바이올렛 「컬렉션 파일 세트 N」",
-      "platform": "이마트몰",
-      "price": 24000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000686853202",
-      "img": "https://sitem.ssgcdn.com/02/32/85/item/1000686853202_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 스칼렛바이올렛 확장팩 화이트플레어 1박스 20팩 총 140개입",
-      "platform": "이마트몰",
-      "price": 80930,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000713054755",
-      "img": "https://sitem.ssgcdn.com/55/47/05/item/1000713054755_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "카드 게임 스칼렛&바이올렛 배틀 마스터 덱 「파오젠 ex」",
-      "platform": "이마트몰",
-      "price": 15000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000605871160",
-      "img": "https://sitem.ssgcdn.com/60/11/87/item/1000605871160_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "박스 포켓몬카드 포켓몬고 선물세트",
-      "platform": "이마트몰",
-      "price": 188211,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464360891",
-      "img": "https://sitem.ssgcdn.com/91/08/36/item/1000464360891_i1_232.jpg",
-      "updated": "2026-07-08T00:47:32+09:00"
-    },
-    {
-      "name": "포켓몬카드 소드 실드 하이클래스 팩 샤이니스타 V 10팩 1박스(비닐 밀봉박스)",
-      "platform": "이마트몰",
-      "price": 329030,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000842594670",
-      "img": "https://sitem.ssgcdn.com/70/46/59/item/1000842594670_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드 스칼렛&바이올렛 확장팩 1탄 스칼렛 ex 1박스",
-      "platform": "이마트몰",
-      "price": 69110,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000542102718",
-      "img": "https://sitem.ssgcdn.com/18/27/10/item/1000542102718_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드 스칼렛 바이올렛 배틀 강화 확장팩 낙원드래고나",
-      "platform": "이마트몰",
-      "price": 50510,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000687714935",
-      "img": "https://sitem.ssgcdn.com/35/49/71/item/1000687714935_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬 카드 게임 컬렉션 파일 피카츄 대형 컬렉션",
-      "platform": "이마트몰",
-      "price": 24500,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000581043638",
-      "img": "https://sitem.ssgcdn.com/38/36/04/item/1000581043638_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드 초전브레이커 스칼렛&바이올렛 강화확장팩 한글판 1박스 30팩",
-      "platform": "이마트몰",
-      "price": 90140,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000675753376",
-      "img": "https://sitem.ssgcdn.com/76/33/75/item/1000675753376_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드 SJ06JO27 스타터세트 나오하 루카리오EX 장난감",
-      "platform": "이마트몰",
-      "price": 18434,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000759941392",
-      "img": "https://sitem.ssgcdn.com/92/13/94/item/1000759941392_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드 UN24KE97 소드앤실드 스타터세트 루카리오 카드",
-      "platform": "이마트몰",
-      "price": 17299,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000759570154",
-      "img": "https://sitem.ssgcdn.com/54/01/57/item/1000759570154_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬스터카드 스칼렛n바이올렛 스타터세트ex 뜨아거n전룡ex 1BOX",
-      "platform": "이마트몰",
-      "price": 13590,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000533805590",
-      "img": "https://sitem.ssgcdn.com/90/55/80/item/1000533805590_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드 promo 리피아v",
-      "platform": "이마트몰",
-      "price": 20220,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464362470",
-      "img": "https://sitem.ssgcdn.com/70/24/36/item/1000464362470_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬스터카드 스칼렛n바이올렛 스타터세트ex 꾸왁스n따라큐ex 1BOX",
-      "platform": "이마트몰",
-      "price": 13650,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000533805799",
-      "img": "https://sitem.ssgcdn.com/99/57/80/item/1000533805799_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬 유희왕 카드 보관 앨범 정리 케이스 정리함",
-      "platform": "이마트몰",
-      "price": 4190,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000596514154",
-      "img": "https://sitem.ssgcdn.com/54/41/51/item/1000596514154_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 확장팩 배틀파트너즈 1박스(프로모팩없음)",
-      "platform": "이마트몰",
-      "price": 88010,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000681295195",
-      "img": "https://sitem.ssgcdn.com/95/51/29/item/1000681295195_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드 ZP96UL55 컬렉션 파일세트 릴리에 포켓몬스터 카드팩 어린이 장난감 선물",
-      "platform": "이마트몰",
-      "price": 29672,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000759910631",
-      "img": "https://sitem.ssgcdn.com/31/06/91/item/1000759910631_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드 스칼렛 바이올렛 스타터 세트 ex 피카츄 스페셜 세트",
-      "platform": "이마트몰",
-      "price": 97760,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000543926975",
-      "img": "https://sitem.ssgcdn.com/75/69/92/item/1000543926975_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 확장팩 변환의 가면 30팩 1박스/sv6 재생산 일반박스(프로모X)",
-      "platform": "이마트몰",
-      "price": 68430,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000603508777",
-      "img": "https://sitem.ssgcdn.com/77/87/50/item/1000603508777_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드 스칼렛&바이올렛 강화확장팩 트리플렛비트 30팩 1박스",
-      "platform": "이마트몰",
-      "price": 79990,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000544660136",
-      "img": "https://sitem.ssgcdn.com/36/01/66/item/1000544660136_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 확장팩 크림슨헤이즈 30팩 1박스/sv5a",
-      "platform": "이마트몰",
-      "price": 48880,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000597254713",
-      "img": "https://sitem.ssgcdn.com/13/47/25/item/1000597254713_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "20종세트 v카드 포켓몬카드",
-      "platform": "이마트몰",
-      "price": 170660,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464362194",
-      "img": "https://sitem.ssgcdn.com/94/21/36/item/1000464362194_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "[포켓몬공식] 포켓몬 카드 게임 카드 실드 「조로아크(히스이의 모습)」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000441805765",
-      "img": "https://sitem.ssgcdn.com/65/57/80/item/1000441805765_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드 인페르노X 메가 확장팩 1BOX 30팩",
-      "platform": "이마트몰",
-      "price": 74575,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000763205785",
-      "img": "https://sitem.ssgcdn.com/85/57/20/item/1000763205785_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "신비아파트카드 절대 열어보지마 호러팩 AR카드 시즌5 고스트볼제로",
-      "platform": "이마트몰",
-      "price": 24170,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000556269517",
-      "img": "https://sitem.ssgcdn.com/17/95/26/item/1000556269517_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "트레이딩 카드 게임 스칼렛바이올렛 포켓몬 151 카드 슬리브 [65매]",
-      "platform": "이마트몰",
-      "price": 64490,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000807469254",
-      "img": "https://sitem.ssgcdn.com/54/92/46/item/1000807469254_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 확장팩 미래의 일섬 30팩 1박스/sv4M",
-      "platform": "이마트몰",
-      "price": 68430,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000571124364",
-      "img": "https://sitem.ssgcdn.com/64/43/12/item/1000571124364_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬스터 한글쓰기 한글 낱말 100일 마스터 한글카드 유아 한글 학습 교재",
-      "platform": "이마트몰",
-      "price": 7600,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000612848049",
-      "img": "https://sitem.ssgcdn.com/49/80/84/item/1000612848049_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "promo 포켓몬카드 글레이시아vstar",
-      "platform": "이마트몰",
-      "price": 29898,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464360974",
-      "img": "https://sitem.ssgcdn.com/74/09/36/item/1000464360974_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "카드 엑스퍼트가드 자석케이스 - 포켓몬카드,유희왕카드 수집용 슬리브",
-      "platform": "이마트몰",
-      "price": 2430,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000550528502",
-      "img": "https://sitem.ssgcdn.com/02/85/52/item/1000550528502_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 확장팩 와일드포스 30팩 1박스/sv5K/비닐밀봉박스",
-      "platform": "이마트몰",
-      "price": 58970,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000584413070",
-      "img": "https://sitem.ssgcdn.com/70/30/41/item/1000584413070_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드케이스 포켓몬카드슬리브 포켓몬카드탑로더",
-      "platform": "이마트몰",
-      "price": 2831,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000614743937",
-      "img": "https://sitem.ssgcdn.com/37/39/74/item/1000614743937_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "[포켓몬공식] 포켓몬 카드 게임 플레이매트 「이상해꽃」",
-      "platform": "이마트몰",
-      "price": 30000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000474989696",
-      "img": "https://sitem.ssgcdn.com/96/96/98/item/1000474989696_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬카드 스타터세트 뜨아거 전룡EX 카드 장난감 포켓몬스터카드 포켓몬카드박스 포켓몬카드팩",
-      "platform": "이마트몰",
-      "price": 15060,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000762555694",
-      "img": "https://sitem.ssgcdn.com/94/56/55/item/1000762555694_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "신비아파트카드 1+1 기획세트 절대 돌아보지마 호러팩+ 덱 랜덤증정",
-      "platform": "이마트몰",
-      "price": 23100,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000553561992",
-      "img": "https://sitem.ssgcdn.com/92/19/56/item/1000553561992_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬 카드 스칼렛 바이올렛 확장팩 고대의 포효 30팩 1박스/sv4K",
-      "platform": "이마트몰",
-      "price": 78210,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000571124805",
-      "img": "https://sitem.ssgcdn.com/05/48/12/item/1000571124805_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬 한글카드+퍼즐 3종세트",
-      "platform": "이마트몰",
-      "price": 30260,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000561472675",
-      "img": "https://sitem.ssgcdn.com/75/26/47/item/1000561472675_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "카드 게임 스칼렛&바이올렛 스타터 세트 ex 「꾸왁스&따라큐 ex」",
-      "platform": "이마트몰",
-      "price": 12000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000533485046",
-      "img": "https://sitem.ssgcdn.com/46/50/48/item/1000533485046_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "[포켓몬공식] 포켓몬 카드 게임 카드 실드 「자시안&자마젠타(역전의 용사)」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000517329537",
-      "img": "https://sitem.ssgcdn.com/37/95/32/item/1000517329537_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "포켓몬스터 포켓몬 캐치 보드게임",
-      "platform": "이마트몰",
-      "price": 27940,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000626152908",
-      "img": "https://sitem.ssgcdn.com/08/29/15/item/1000626152908_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "특별한 포켓몬 스타트세트 카드게임 재미있는 포켓몬카드 포켓몬스터카드 포켓몬카드박스",
-      "platform": "이마트몰",
-      "price": 28170,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000763008645",
-      "img": "https://sitem.ssgcdn.com/45/86/00/item/1000763008645_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "promo 리피아vstar 포켓몬카드",
-      "platform": "이마트몰",
-      "price": 29898,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464362526",
-      "img": "https://sitem.ssgcdn.com/26/25/36/item/1000464362526_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "박스 선물세트 다크판타스마 포켓몬카드",
-      "platform": "이마트몰",
-      "price": 170660,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464360844",
-      "img": "https://sitem.ssgcdn.com/44/08/36/item/1000464360844_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "카드 게임 카드 실드 프리미엄 「테라스탈 갸라도스」",
-      "platform": "이마트몰",
-      "price": 10000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000548095228",
-      "img": "https://sitem.ssgcdn.com/28/52/09/item/1000548095228_i1_232.jpg",
-      "updated": "2026-07-08T00:47:34+09:00"
-    },
-    {
-      "name": "드래곤빌리지2 결계의 저편/빌리지 카드게임/모바일게임 연동",
-      "platform": "이마트몰",
-      "price": 11480,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000540445587",
-      "img": "https://sitem.ssgcdn.com/87/55/44/item/1000540445587_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "마자용V 포켓몬카드 SR 슈퍼레어",
-      "platform": "이마트몰",
-      "price": 29898,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464360683",
-      "img": "https://sitem.ssgcdn.com/83/06/36/item/1000464360683_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "[포켓몬공식] 포켓몬 카드 게임 카드 실드 「세레나」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000519020771",
-      "img": "https://sitem.ssgcdn.com/71/07/02/item/1000519020771_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "[포켓몬공식] 포켓몬 카드 게임 카드 실드 프리미엄 「거북왕」",
-      "platform": "이마트몰",
-      "price": 10000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000474988330",
-      "img": "https://sitem.ssgcdn.com/30/83/98/item/1000474988330_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬카드 테라스탈 페스타ex 스칼렛 바이올렛 하이클래스팩",
-      "platform": "이마트몰",
-      "price": 138390,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000647038601",
-      "img": "https://sitem.ssgcdn.com/01/86/03/item/1000647038601_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬 모르페코 V-유니온 포켓몬 4 카드 세트 블랙 스타 프로모션",
-      "platform": "이마트몰",
-      "price": 169900,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000669448736",
-      "img": "https://sitem.ssgcdn.com/36/87/44/item/1000669448736_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "[포켓몬공식] 포켓몬 카드 게임 카드 실드 「샤로다&명희」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000519020504",
-      "img": "https://sitem.ssgcdn.com/04/05/02/item/1000519020504_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬카드 RY24JZ27 컬렉션 파일세트 N 카드 게임 장난감",
-      "platform": "이마트몰",
-      "price": 32698,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000759909974",
-      "img": "https://sitem.ssgcdn.com/74/99/90/item/1000759909974_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬스터 트레이닝게임 카드대결 보드게임",
-      "platform": "이마트몰",
-      "price": 4390,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000631206893",
-      "img": "https://sitem.ssgcdn.com/93/68/20/item/1000631206893_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "카드 게임 카드 실드「앤테이&라이코&스이쿤」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000528915974",
-      "img": "https://sitem.ssgcdn.com/74/59/91/item/1000528915974_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬 유희왕 카드 보관 앨범 정리 케이스 정리함",
-      "platform": "이마트몰",
-      "price": 4190,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000596665999",
-      "img": "https://sitem.ssgcdn.com/99/59/66/item/1000596665999_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬 TCG 30주년 오리지널 컬렉션 1탄 박스 (중문판)",
-      "platform": "이마트몰",
-      "price": 27350,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000848923852",
-      "img": "https://sitem.ssgcdn.com/52/38/92/item/1000848923852_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "카드 게임 스칼렛&바이올렛 스타터 세트 테라스탈 「라우드본 ex」",
-      "platform": "이마트몰",
-      "price": 12000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000563456461",
-      "img": "https://sitem.ssgcdn.com/61/64/45/item/1000563456461_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "카드 게임 스칼렛&바이올렛 스타터 세트 ex 「뜨아거&전룡 ex」",
-      "platform": "이마트몰",
-      "price": 12000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000533484543",
-      "img": "https://sitem.ssgcdn.com/43/45/48/item/1000533484543_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬 QM26GP88 카드놀이 사다리 게임 디럭스 어린이 보드게임",
-      "platform": "이마트몰",
-      "price": 28537,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000759977231",
-      "img": "https://sitem.ssgcdn.com/31/72/97/item/1000759977231_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬 한글카드 100",
-      "platform": "이마트몰",
-      "price": 17750,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000832867124",
-      "img": "https://sitem.ssgcdn.com/24/71/86/item/1000832867124_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬 시크릿 랜덤 마그넷 캐릭터카드 딱지",
-      "platform": "이마트몰",
-      "price": 730,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000787260099",
-      "img": "https://sitem.ssgcdn.com/99/00/26/item/1000787260099_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "코리아보드게임 포켓몬 칩스 카드 보드게임 보드게임놀이",
-      "platform": "이마트몰",
-      "price": 35460,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000829630159",
-      "img": "https://sitem.ssgcdn.com/59/01/63/item/1000829630159_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬카드 미개봉5팩 리피아vmax 4종세트 증정",
-      "platform": "이마트몰",
-      "price": 85696,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464362361",
-      "img": "https://sitem.ssgcdn.com/61/23/36/item/1000464362361_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬스터 포켓몬 키링 스티커 메이커 포켓몬카드 포켓몬스터카드 포켓몬카드박스 포켓몬카드팩",
-      "platform": "이마트몰",
-      "price": 49880,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000762844683",
-      "img": "https://sitem.ssgcdn.com/83/46/84/item/1000762844683_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "(에어캡 포장 슈링크O 미개봉) 포켓몬카드 MEGA 메가 확장팩 어비스아이 1상자",
-      "platform": "이마트몰",
-      "price": 78430,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000850717704",
-      "img": "https://sitem.ssgcdn.com/04/77/71/item/1000850717704_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "카드 게임 스칼렛&바이올렛 스타터 세트 ex 「나오하&루카리오 ex」",
-      "platform": "이마트몰",
-      "price": 12000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000533484248",
-      "img": "https://sitem.ssgcdn.com/48/42/48/item/1000533484248_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬카드 스칼렛바이올렛 확장팩 스텔라미라클",
-      "platform": "이마트몰",
-      "price": 69360,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000618247560",
-      "img": "https://sitem.ssgcdn.com/60/75/24/item/1000618247560_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "카드 게임 카드 실드 「메가지가르데」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000848033615",
-      "img": "https://sitem.ssgcdn.com/15/36/03/item/1000848033615_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "카드 게임 카드 실드 「메가가디안」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000729570291",
-      "img": "https://sitem.ssgcdn.com/91/02/57/item/1000729570291_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "카드 게임 카드 실드 프리미엄 「나옹」",
-      "platform": "이마트몰",
-      "price": 10000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000848028036",
-      "img": "https://sitem.ssgcdn.com/36/80/02/item/1000848028036_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "풀 패키지 전설 8종 포켓몬카드 무한다이노",
-      "platform": "이마트몰",
-      "price": 170660,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464360948",
-      "img": "https://sitem.ssgcdn.com/48/09/36/item/1000464360948_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "니힐제로 포켓몬카드 MEGA 확장팩 1BOX 30팩",
-      "platform": "이마트몰",
-      "price": 67060,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000805628412",
-      "img": "https://sitem.ssgcdn.com/12/84/62/item/1000805628412_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬 TCG 30주년 오리지널 컬렉션 1탄 박스8입 중문판",
-      "platform": "이마트몰",
-      "price": 216450,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000848923894",
-      "img": "https://sitem.ssgcdn.com/94/38/92/item/1000848923894_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬스터 구구단 카드",
-      "platform": "이마트몰",
-      "price": 6790,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000816451928",
-      "img": "https://sitem.ssgcdn.com/28/19/45/item/1000816451928_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "카드 게임 카드 실드 「꼬몽울」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000781698366",
-      "img": "https://sitem.ssgcdn.com/66/83/69/item/1000781698366_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "카드 게임 카드 실드 「맛보돈」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000534758427",
-      "img": "https://sitem.ssgcdn.com/27/84/75/item/1000534758427_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬카드 스칼렛 바이올렛 확장팩 1탄 바이올렛 ex 30팩 1박스",
-      "platform": "이마트몰",
-      "price": 97760,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000540578723",
-      "img": "https://sitem.ssgcdn.com/23/87/57/item/1000540578723_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "10종세트 v카드 포켓몬카드",
-      "platform": "이마트몰",
-      "price": 90169,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464362255",
-      "img": "https://sitem.ssgcdn.com/55/22/36/item/1000464362255_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "[포켓몬공식] 포켓몬 카드 게임 카드 실드 「제라오라 Ver.2」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000471056055",
-      "img": "https://sitem.ssgcdn.com/55/60/05/item/1000471056055_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "코리아보드게임 포켓몬 칩스 카드 보드게임 보드게임놀이",
-      "platform": "이마트몰",
-      "price": 35460,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000829568896",
-      "img": "https://sitem.ssgcdn.com/96/88/56/item/1000829568896_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "글레이시아 증정 미개봉5팩 vmax 4종세트 포켓몬카드",
-      "platform": "이마트몰",
-      "price": 85696,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000464362422",
-      "img": "https://sitem.ssgcdn.com/22/24/36/item/1000464362422_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "포켓몬카드 WC29EQ65 스타트세트 테라스탈 라우드본EX 카드게임",
-      "platform": "이마트몰",
-      "price": 18056,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000759593096",
-      "img": "https://sitem.ssgcdn.com/96/30/59/item/1000759593096_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "카드 게임 카드 실드 「팽도리&팽태자&엠페르트」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000761702054",
-      "img": "https://sitem.ssgcdn.com/54/20/70/item/1000761702054_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
-    },
-    {
-      "name": "카드 게임 카드 실드 「영빈&윤슬」",
-      "platform": "이마트몰",
-      "price": 8000,
-      "stock": true,
-      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000528917380",
-      "img": "https://sitem.ssgcdn.com/80/73/91/item/1000528917380_i1_232.jpg",
-      "updated": "2026-07-08T00:47:36+09:00"
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=131038463",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20250701/165137.297465898/4521329430140.jpg",
+      "updated": "2026-07-08T03:08:16+09:00"
     }
   ]
 }
