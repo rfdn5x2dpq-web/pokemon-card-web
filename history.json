@@ -16258,5 +16258,23 @@
       "date": "2026-07-08",
       "price": 150000
     }
+  ],
+  "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114167069": [
+    {
+      "date": "2026-07-10",
+      "price": 10000
+    }
+  ],
+  "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=131702915": [
+    {
+      "date": "2026-07-10",
+      "price": 5000
+    }
+  ],
+  "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=131702920": [
+    {
+      "date": "2026-07-10",
+      "price": 5000
+    }
   ]
 }
