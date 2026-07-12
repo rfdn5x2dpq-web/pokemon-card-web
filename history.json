@@ -12281,6 +12281,10 @@
     {
       "date": "2026-07-12",
       "price": 10400
+    },
+    {
+      "date": "2026-07-13",
+      "price": 10500
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000760768925": [
@@ -16545,6 +16549,10 @@
     {
       "date": "2026-07-12",
       "price": 26530
+    },
+    {
+      "date": "2026-07-13",
+      "price": 26620
     }
   ],
   "https://emart.ssg.com/item/itemView.ssg?itemId=1000848923894": [
