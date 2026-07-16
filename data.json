@@ -1,15 +1,6 @@
 {
-  "updated": "2026-07-17T01:51:08+09:00",
+  "updated": "2026-07-17T03:13:02+09:00",
   "items": [
-    {
-      "name": "포켓몬센터 포켓몬 카드 게임 카드 실드 「HISUI DAYS 찬석」",
-      "platform": "포켓몬센터코리아",
-      "price": 10000,
-      "stock": true,
-      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=114167079",
-      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/migration/69615/product/5597911/1000005154_detail_060.png",
-      "updated": "2026-07-17T01:50:56+09:00"
-    },
     {
       "name": "포켓몬센터 포켓몬 카드 게임 프리미엄 레더 플립 덱케이스 피카츄",
       "platform": "포켓몬센터코리아",
@@ -17,7 +8,7 @@
       "stock": true,
       "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=131038465",
       "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20250701/165137.639816101/4521329430126.jpg",
-      "updated": "2026-07-17T01:50:56+09:00"
+      "updated": "2026-07-17T03:12:51+09:00"
     },
     {
       "name": "포켓몬센터 포켓몬 카드 게임 프리미엄 레더 플립 덱케이스 메타몽",
@@ -26,7 +17,7 @@
       "stock": true,
       "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=131038464",
       "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20250701/165137.596011057/4521329430133.jpg",
-      "updated": "2026-07-17T01:50:56+09:00"
+      "updated": "2026-07-17T03:12:51+09:00"
     }
   ]
 }
