@@ -1,4 +1,32 @@
 {
-  "updated": "2026-08-17T01:34:11+09:00",
-  "items": []
+  "updated": "2026-08-17T02:27:00+09:00",
+  "items": [
+    {
+      "name": "포켓몬 카드 게임 컬렉션 파일 「모험의 시작 : 피카츄·이상해씨·파이리·꼬부기」",
+      "platform": "포켓몬센터코리아",
+      "price": 20000,
+      "stock": false,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=136143650",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20260731/184024.374310569/온라인MD_V1_컬렉션파일_3D.png",
+      "updated": "2026-08-17T02:26:26+09:00"
+    },
+    {
+      "name": "포켓몬 카드 게임 플레이매트 「디멘션 : 뮤&amp;뮤츠」",
+      "platform": "포켓몬센터코리아",
+      "price": 20000,
+      "stock": false,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=136142937",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20260731/185050.404445966/온라인MD_V2_플레이매트.png",
+      "updated": "2026-08-17T02:26:26+09:00"
+    },
+    {
+      "name": "포켓몬 카드 게임 틴 케이스 「디멘션 : 뮤&amp;뮤츠」",
+      "platform": "포켓몬센터코리아",
+      "price": 5000,
+      "stock": false,
+      "url": "https://www.pokemonstore.co.kr/#/pages/product/view.html?productNo=136143075",
+      "img": "https://shopby-images.cdn-nhncommerce.com/Mall-No-h6Ss/20260731/184921.927196369/온라인MD_검정_3D.png",
+      "updated": "2026-08-17T02:26:26+09:00"
+    }
+  ]
 }
